@@ -1,0 +1,563 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* root  */
+
+:root{
+    --Home:#bfdbf7;
+    --Languages:#1f7a8c;
+    --Projects:#022b3a;
+    --Sections:#427aa1;
+    --color:#e1e5f2;
+
+
+}
+
+.continar{
+    margin-left:auto ;
+    margin-right: auto;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+@media (min-width: 768px){
+    .continar{
+        width: 750px;
+    }
+}
+@media (min-width: 992px){
+    .continar{
+        width: 970px;
+    }
+}
+@media (min-width: 1200px){
+    .continar{
+        width: 1170px;
+    }
+}
+
+
+.continar .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+   
+}
+
+header{
+    background-color: gray;
+    width: 100%;
+}
+.main .nav-bar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main .nav-bar ul a{
+    margin: 0 20px;
+    color: gold;
+}
+
+.main .logo a{
+    text-transform: uppercase;
+    color: gold;
+
+}
+.main .nav-bar{
+    width: 400px;
+
+}
+.main .buttons{
+
+}
+.main .buttons button{
+    padding: 8px;
+    margin: 0 7px;
+    border: none;
+    cursor: pointer;
+    background-color:white;
+    color: goldenrod;
+}
+
+
+.main .buttons button:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+
+
+
+.main .nav-bar a:hover{
+    color: goldenrod;
+}
+
+/* start section */
+
+.continar .Home{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.continar .Home .img img{
+    width: 400px;
+}
+
+.continar .Home .home-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 100vh;
+}
+
+.home-text p{
+    padding:20px 0;
+    font-size: 20px;
+}
+
+.home-text h1 {
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+}
+
+.home-text h1 .Muhammad{
+    color: gold;
+}
+
+
+.home-text .icon{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text .icon img{
+    width: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.home-text .icon i{
+    font-size: 30px;
+    margin: 0 20px;
+}
+.home-text .icon .fa-facebook{
+    color: blue;
+}
+.home-text .icon .fa-youtube{
+    color: red;
+}
+.home-text .icon .fa-instagram{
+    color:#b821d4;
+}
+
+
+.home-text .icon i:hover{
+ transform: scale(1.2);
+ transition: .5s;
+}
+.home-text .icon img:hover{
+ transform: scale(1.2);
+ transition: .5s;
+}
+
+.Languages-text .continar,.Projects-text1 .continar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color:darkgrey;
+    
+    
+}
+
+.Projects-text1 h1{
+    border-bottom: 5px solid gold;
+    padding: 4px 0 ;
+    color: white;
+}
+.Languages-text h1{
+    border-bottom: 5px solid gold;
+    padding: 4px 0 ;
+    color: white;
+}
+
+
+/* section end */
+
+/* start */
+
+.languages-icon{
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgb(87, 87, 87);
+    
+    
+}
+
+.languages-icon .continar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 75%;
+    
+    
+}
+
+.icon-languages{
+    width: 250px;
+    height: 150px;
+    background-color:white;
+    border-radius: 10px;
+    margin: 25px 0;
+    box-shadow: 3px 2px 8px gold ;
+    
+}
+
+.icon-languages i{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px ;
+    
+    
+}
+
+.icon-languages .fa-html5{
+    color: #ff4800;
+
+}
+.icon-languages .fa-css3-alt{
+    color: blue;
+
+}
+.icon-languages .fa-square-js{
+    color: gold;
+
+}
+.icon-languages .fa-react{
+    color: rgb(0, 162, 255);
+
+}
+.icon-languages .fa-bootstrap{
+    color: rgb(140, 0, 255);
+
+}
+.icon-languages .fa-html5{
+    color: #ff4800;
+
+}
+.icon-languages .fa-git-alt{
+    color: #ff4800;
+}
+.icon-languages .fa-node{
+    color: green;
+}
+.icon-languages .fa-wordpress{
+    color: rgb(73, 73, 250);
+}
+
+
+
+.icon-languages h2{
+    padding: 0 10px;
+    color: black;
+    text-align: center;
+
+}
+
+.icon-languages p{
+    padding: 10px 10px;
+    color: black;
+}
+
+.icon-languages:hover{
+    transform: scale(1.1);
+    
+    transition: all .5s;
+
+}
+
+
+/* start Projects */
+
+.Projects{
+    background-color:gray;
+    width: 100%;
+    
+}
+
+
+.Projects .Projects-text{
+    width: 280px;
+    height: 330px;
+    box-shadow: 3px 2px 8px black ;
+    border-radius: 10px;
+    background-color: white;
+    
+
+    
+
+}
+
+.continar .Projects-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+    
+    
+    
+
+}
+
+.Projects-main .Projects-text{
+    margin: 10px 10px;
+    
+    
+}
+
+
+
+
+.Projects .Projects-text img{
+    width: 280px;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 0;
+    
+}
+
+.Projects .Projects-text p{
+    margin: 30px 0;
+    margin-left:10px ;
+    width: 250px;
+}
+
+.Projects .Projects-text a{
+    padding: 13px;
+    background-color: gold;
+    border-radius: 10px;
+    margin-left:10px ;
+    color: white;
+}
+
+
+.Projects .continar .text-proj{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Projects .continar .text-proj h2{
+    font-size: 50px;
+    color: white;
+    border-bottom: 5px solid gold;
+    padding: 5px 0;
+}
+
+
+
+
+
+
+
+
+/* end Projects */
+
+
+/* form start */
+ .form{
+    width: 100%;
+    height: 600px;
+ }
+
+ .form .continar .form-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 8px rgba(255, 217, 0, 0.548) ;
+    
+
+    
+    
+ }
+ .form .continar .form-input img{
+ 
+    width: 520px;
+    padding: 0 20px;
+    
+ }
+ .form .continar .form-input .input{
+ 
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+    
+ }
+ .form .continar .form-input .input input{
+ 
+    width: 500px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 20px;
+    
+ }
+
+
+
+ .continar .text-form h2{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 40px;
+ }
+ .continar h2 span{
+    text-align: center;
+    margin: 20px 0;
+    color: gold;
+ }
+
+
+ .form .continar .form-input .input textarea{
+    padding: 10px 10px;
+    width: 500px;
+    height: 130px;
+ }
+
+
+/* form end */
+
+
+/* footer start */
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.904);
+}
+
+footer .continar .footer-main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer .continar .footer-main .oun{
+    width: 370px;
+    height: 300px;
+    margin: 50px 0;
+}
+footer .continar .footer-main .oun p{
+    margin: 20px 0;
+    font-size: 20px;
+    color: white;
+}
+footer .continar .footer-main .oun h2{
+    font-size: 30px;
+    color: white;
+}
+
+
+footer .continar .footer-main .tow{
+   width: 200px;
+   height: 300px;
+   margin: 50px 0;
+}
+
+footer .continar .footer-main .tow a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+    color: white;
+}
+
+footer .continar .footer-main .tow a:hover{
+    color: gold;
+    transition: .5s;
+}
+
+
+
+footer .continar .footer-main .tow h2{
+    font-size: 30px;
+    color: white;
+}
+
+footer .continar .footer-main .three{
+   width: 300px;
+   height: 300px;
+   margin: 50px 0;
+}
+footer .continar .footer-main .three h2{
+    font-size: 25px;
+    color:white;
+    margin-bottom: 20px ;
+}
+
+footer .continar .footer-main .three .icon-footer span{
+    font-size: 30px;
+    margin: 0 10px;
+    color: white;
+}
+
+footer .continar .footer-main .three .icon-footer span:hover{
+    color: gold;
+}
+
+.mm{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mm p{
+    color: white;
+}
+
+
+
+
+/* footer end */
